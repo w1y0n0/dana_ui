@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       navigatorKey: Get.navigatorKey,
       theme: getDefaultTheme(),
-      home: const SendMoneyView(),
+      home: const TransactionHistoryView(),
     );
   }
 }

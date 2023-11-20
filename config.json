@@ -1,10 +1,17 @@
 {
     "modules": [
-        "send_money"
+        "send_money",
+        "transaction_history",
+        "transaction_history_in_progress",
+        "transaction_history_completed"
     ],
     "module_directory_name": "module",
     "experimental_mode": false,
     "learning_mode": false,
     "unfreezed": true,
-    "use_cubit": false
+    "use_cubit": false,
+    "ignore_core_generator_for_directories": [
+        "lib/model",
+        "lib/models"
+    ]
 }
